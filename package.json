@@ -16,6 +16,8 @@
         "build": "encore production --progress"
     },
     "dependencies": {
-        "lit": "^2.2.0"
+        "dompurify": "^2.3.6",
+        "lit": "^2.2.0",
+        "marked": "^4.0.12"
     }
 }
