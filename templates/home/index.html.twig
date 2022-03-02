@@ -3,5 +3,8 @@
 {% block title %}Hello HomeController!{% endblock %}
 
 {% block body %}
-<markdown-renderer></markdown-renderer>
+{# <markdown-renderer content="# Bonjour je suis un développeur\n\n**test bold text**"></markdown-renderer> #}
+<hello-world label="John"></hello-world>
+
+{{name|markdown|raw}}
 {% endblock %}

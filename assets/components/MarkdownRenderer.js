@@ -3,16 +3,22 @@ import { marked, } from 'marked';
 
 export default class MarkdownRenderer extends LitElement {
 
+  static get properties() {
+    return {
+      content: { type: String },
+    };
+  };
+
   constructor() {
     super();
-    console.log(marked.parse('# Marked in the browser\n\nRendered by **marked**.'));
+    console.log(this.content);
   }
 
   // Render the UI as a function of component state
   render() {
     return html`
     <div>
-      ${document.createRange().createContextualFragment(marked.parse('# Marked in the browser\n\nRendered by **marked**.'))}
+      ${document.createRange().createContextualFragment(marked.parse(this.content))}
     </div>
     `;
   }

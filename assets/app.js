@@ -8,11 +8,23 @@
 // any CSS you import will output into a single css file (app.css in this case)
 // import './styles/app.css';
 
-import MarkdownRenderer from './components/markdown-renderer';
+// import MarkdownRenderer from "./components/MarkdownRenderer";
+
+// customElements.define('markdown-renderer', MarkdownRenderer);
+
+// import './bootstrap';
+import HelloWorld from "./components/HelloWorld.ce.vue";
+import { defineCustomElement } from 'vue'
+
+customElements.define('hello-world', defineCustomElement(HelloWorld))
+
+// import { createApp } from 'vue';
 
 
-customElements.define('markdown-renderer', MarkdownRenderer);
+// const app = createApp({
+//    components: {
+//       HelloWorld
+//    }
+// })
 
-
-// start the Stimulus application
-import './bootstrap';
+// app.mount('#app')
