@@ -13,13 +13,12 @@
 // customElements.define('markdown-renderer', MarkdownRenderer);
 
 // import './bootstrap';
+import { defineCustomElement } from "vue";
 import HelloWorld from "./components/HelloWorld.ce.vue";
-import { defineCustomElement } from 'vue'
 
-customElements.define('hello-world', defineCustomElement(HelloWorld))
+customElements.define("hello-world", defineCustomElement(HelloWorld));
 
 // import { createApp } from 'vue';
-
 
 // const app = createApp({
 //    components: {

@@ -1,27 +1,33 @@
 {
-    "devDependencies": {
-        "@hotwired/stimulus": "^3.0.0",
-        "@symfony/stimulus-bridge": "^3.0.0",
-        "@symfony/webpack-encore": "^1.7.0",
-        "core-js": "^3.0.0",
-        "regenerator-runtime": "^0.13.2",
-        "sass": "^1.49.9",
-        "sass-loader": "^12.6.0",
-        "vue": "^3.2.31",
-        "vue-loader": "^16.7.0",
-        "webpack-notifier": "^1.6.0"
-    },
-    "license": "UNLICENSED",
-    "private": true,
-    "scripts": {
-        "dev-server": "encore dev-server",
-        "dev": "encore dev",
-        "watch": "encore dev --watch",
-        "build": "encore production --progress"
-    },
-    "dependencies": {
-        "dompurify": "^2.3.6",
-        "lit": "^2.2.0",
-        "marked": "^4.0.12"
-    }
+	"license": "UNLICENSED",
+	"private": true,
+	"scripts": {
+		"dev-server": "encore dev-server",
+		"dev": "encore dev",
+		"watch": "encore dev --watch",
+		"build": "encore production --progress"
+	},
+	"dependencies": {
+		"dompurify": "^2.3.6",
+		"lit": "^2.2.0",
+		"marked": "^4.0.12"
+	},
+	"devDependencies": {
+		"@symfony/webpack-encore": "^1.7.0",
+		"core-js": "^3.0.0",
+		"eslint": "^8.10.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-prettier": "^4.0.0",
+		"eslint-plugin-vue": "^8.5.0",
+		"prettier": "^2.5.1",
+		"regenerator-runtime": "^0.13.2",
+		"sass": "^1.49.9",
+		"sass-loader": "^12.6.0",
+		"vue": "^3.2.31",
+		"vue-loader": "^16.7.0",
+		"webpack-notifier": "^1.6.0",
+		"webpack": ">=5.0.0 <6.0.0"
+	}
 }
