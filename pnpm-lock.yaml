@@ -4,6 +4,7 @@ importers:
 
   .:
     specifiers:
+      '@needlify/components': workspace:^1.0.0
       '@symfony/webpack-encore': ^1.7.0
       core-js: ^3.0.0
       dompurify: ^2.3.6
@@ -24,6 +25,7 @@ importers:
       webpack: '>=5.0.0 <6.0.0'
       webpack-notifier: ^1.6.0
     dependencies:
+      '@needlify/components': link:components
       dompurify: 2.3.6
       lit: 2.2.0
       marked: 4.0.12
@@ -44,6 +46,9 @@ importers:
       vue-loader: 16.8.3_webpack@5.70.0
       webpack: 5.70.0
       webpack-notifier: 1.15.0
+
+  components:
+    specifiers: {}
 
 packages:
 

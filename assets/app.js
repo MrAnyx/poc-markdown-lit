@@ -1,23 +1,22 @@
-/*
- * Welcome to your app's main JavaScript file!
- *
- * We recommend including the built version of this JavaScript file
- * (and its CSS file) in your base layout (base.html.twig).
- */
-
-// any CSS you import will output into a single css file (app.css in this case)
 // import './styles/app.css';
 
+/**
+ * Custom elements
+ */
 // import MarkdownRenderer from "./components/MarkdownRenderer";
-
 // customElements.define('markdown-renderer', MarkdownRenderer);
 
 // import './bootstrap';
+// import HelloWorld from "";
+
 import { defineCustomElement } from "vue";
-import HelloWorld from "./components/HelloWorld.ce.vue";
+import { HelloWorldCe } from "@needlify/components";
 
-customElements.define("hello-world", defineCustomElement(HelloWorld));
+customElements.define("hello-world", defineCustomElement(HelloWorldCe));
 
+/**
+ * Traditional way
+ */
 // import { createApp } from 'vue';
 
 // const app = createApp({

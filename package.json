@@ -10,7 +10,8 @@
 	"dependencies": {
 		"dompurify": "^2.3.6",
 		"lit": "^2.2.0",
-		"marked": "^4.0.12"
+		"marked": "^4.0.12",
+		"@needlify/components": "workspace:^1.0.0"
 	},
 	"devDependencies": {
 		"@symfony/webpack-encore": "^1.7.0",
