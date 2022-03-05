@@ -1,0 +1,3 @@
+[submodule "tmp-submodule"]
+	path = tmp-submodule
+	url = https://github.com/MrAnyx/tmp-submodule
