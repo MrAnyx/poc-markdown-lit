@@ -1,5 +1,5 @@
 {
-	"name": "poc-markdown-lit",
+	"name": "pocmarkdownlit",
 	"description": "proof of concept of symfony, markdown and litjs",
 	"type": "project",
 	"license": "proprietary",
