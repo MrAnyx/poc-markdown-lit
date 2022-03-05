@@ -1,4 +1,6 @@
 {
+	"name": "poc-markdown-lit",
+	"description": "proof of concept of symfony, markdown and litjs",
 	"type": "project",
 	"license": "proprietary",
 	"minimum-stability": "stable",
