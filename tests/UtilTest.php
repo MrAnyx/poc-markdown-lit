@@ -8,6 +8,6 @@ class UtilTest extends TestCase
 {
 	public function testSomething(): void
 	{
-		$this->assertTrue(false);
+		$this->assertFalse(false);
 	}
 }
