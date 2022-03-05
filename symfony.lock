@@ -1,4 +1,7 @@
 {
+    "brianium/paratest": {
+        "version": "v6.4.3"
+    },
     "doctrine/annotations": {
         "version": "1.13",
         "recipe": {
@@ -80,6 +83,12 @@
     "erusev/parsedown": {
         "version": "1.7.4"
     },
+    "facade/ignition-contracts": {
+        "version": "1.0.2"
+    },
+    "filp/whoops": {
+        "version": "2.14.5"
+    },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
     },
@@ -94,6 +103,18 @@
     },
     "nikic/php-parser": {
         "version": "v4.13.2"
+    },
+    "nunomaduro/collision": {
+        "version": "v6.1.0"
+    },
+    "pestphp/pest": {
+        "version": "v1.21.1"
+    },
+    "pestphp/pest-plugin": {
+        "version": "v1.0.0"
+    },
+    "pestphp/pest-plugin-parallel": {
+        "version": "v1.0.0"
     },
     "phar-io/manifest": {
         "version": "2.0.3"
@@ -115,6 +136,9 @@
     },
     "phpstan/phpdoc-parser": {
         "version": "1.2.0"
+    },
+    "phpstan/phpstan": {
+        "version": "1.4.8"
     },
     "phpunit/php-code-coverage": {
         "version": "9.2.13"
